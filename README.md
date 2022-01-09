@@ -16,3 +16,4 @@
 - Change setting for movie
 - Launch in-built php server : `php -S 127.0.0.1:2121`
 - Lauch tunnel : `lt --port 2121 --subdomain movie-app`
+- **OR** `lt --port 80 --local-host movies.app.local --subdomain movies-app`
