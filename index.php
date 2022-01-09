@@ -1,12 +1,27 @@
 <?php
     ### Settings ###
 
-    $settings = [
-        'movie_repo' => './the-new-mutants/',
-        'movie_mp4' => 'movie.mp4',
-        'movie_subs' => 'subs.vtt', # Should be in .vtt format
-        'movie_title' => 'The New Mutants'
+    const REPO = './movies/';
+
+    $movies = [
+        'the-new-mutants' => [
+            'movie_repo' => 'the-new-mutants',
+            'movie_mp4' => 'movie.mp4',
+            'movie_subs' => 'subs.vtt', # Should be in .vtt format
+            'movie_title' => 'The New Mutants'
+        ],
+        'black-widow' => [
+            'movie_repo' => 'black-widow',
+            'movie_mp4' => 'movie.mp4',
+            'movie_subs' => 'subs.vtt',
+            'movie_title' => 'Black Widow'
+        ]
     ];
+
+    ### Current movie to expose ###
+
+    $settings = $movies['the-new-mutants'];
+    // $settings = $movies['black-widow'];
 
     ### Settings ###
 ?>
@@ -15,7 +30,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Movie App</title>
+        <title>Movie Streaming App</title>
         <meta name="description" content="">
         <meta name="author" content="fadilxcoder">
         <meta property="og:title" content="">
@@ -30,8 +45,8 @@
         <main>
             <h1><?php echo $settings['movie_title']; ?></h1>
             <video id="video-settings" controls>
-                <source src="<?php echo $settings['movie_repo'] . $settings['movie_mp4'] ; ?>" type="video/mp4">
-                <track label="English" kind="subtitles" srclang="en" src="<?php echo $settings['movie_repo'] . $settings['movie_subs'] ; ?>" default>
+                <source src="<?php echo REPO . $settings['movie_repo'] . '/' . $settings['movie_mp4'] ; ?>" type="video/mp4">
+                <track label="English" kind="subtitles" srclang="en" src="<?php echo REPO . $settings['movie_repo'] . '/' . $settings['movie_subs'] ; ?>" default>
                 Your browser does not support the video tag.
             </video>
         </main>
