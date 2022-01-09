@@ -2,12 +2,27 @@
 <?php
     ### Settings ###
 
-    $settings = [
-        'movie_repo' => './the-new-mutants/',
-        'movie_mp4' => 'movie.mp4',
-        'movie_subs' => 'subs.vtt', # Should be in .vtt format
-        'movie_title' => 'The New Mutants'
+    const REPO = './movies/';
+
+    $movies = [
+        'the-new-mutants' => [
+            'movie_repo' => 'the-new-mutants',
+            'movie_mp4' => 'movie.mp4',
+            'movie_subs' => 'subs.vtt', # Should be in .vtt format
+            'movie_title' => 'The New Mutants'
+        ],
+        'black-widow' => [
+            'movie_repo' => 'black-widow',
+            'movie_mp4' => 'movie.mp4',
+            'movie_subs' => 'subs.vtt',
+            'movie_title' => 'Black Widow'
+        ]
     ];
+
+    ### Current movie to expose ###
+
+    $settings = $movies['the-new-mutants']; <- Movie to stream
+    // $settings = $movies['black-widow'];
 
     ### Settings ###
 ?>
