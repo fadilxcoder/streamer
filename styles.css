@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+body{
+    margin: 0px;
+    background: black;
+    font-family: 'Cinzel Decorative', cursive
+}
+main{
+    text-align: center;
+}
+h1{
+    color: white;
+    text-align: center;
+}
