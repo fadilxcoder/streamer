@@ -39,17 +39,26 @@
         <meta property="og:description" content="">
         <meta property="og:image" content="image.png">
         <link rel="icon" href="favicon.png">
+        <link href="https://unpkg.com/video.js@7/dist/video-js.min.css" rel="stylesheet"/>
+        <link href="https://unpkg.com/@videojs/themes@1/dist/forest/index.css" rel="stylesheet"/>
         <link rel="stylesheet" href="styles.css?v=1.0">
     </head>
     <body>
         <main>
             <h1><?php echo $settings['movie_title']; ?></h1>
-            <video id="video-settings" controls>
+            <video 
+                class="video-js vjs-theme-forest" 
+                id="video-settings" 
+                controls
+                preload="auto"
+                data-setup="{}"
+            >
                 <source src="<?php echo REPO . $settings['movie_repo'] . '/' . $settings['movie_mp4'] ; ?>" type="video/mp4">
                 <track label="English" kind="subtitles" srclang="en" src="<?php echo REPO . $settings['movie_repo'] . '/' . $settings['movie_subs'] ; ?>" default>
                 Your browser does not support the video tag.
             </video>
         </main>
+        <script src="https://vjs.zencdn.net/7.17.0/video.min.js"></script>
         <script src="scripts.js?v=1.0"></script>
     </body>
 </html>

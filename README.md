@@ -28,6 +28,7 @@
 ?>
 ```
 
+- https://videojs.com/ (Library for player GUI)
 - Change setting for movie
 - Launch in-built php server : `php -S 127.0.0.1:2121`
 - Lauch tunnel : `lt --port 2121 --subdomain movie-app`
