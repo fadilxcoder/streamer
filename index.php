@@ -1,7 +1,7 @@
 <?php
     ### Settings ###
 
-    const REPO = './movies/';
+    const REPO = 'movies/';
 
     $movies = [
         'the-new-mutants' => [
@@ -39,9 +39,9 @@
         <meta property="og:description" content="">
         <meta property="og:image" content="image.png">
         <link rel="icon" href="favicon.png">
-        <link href="https://unpkg.com/video.js@7/dist/video-js.min.css" rel="stylesheet"/>
-        <link href="https://unpkg.com/@videojs/themes@1/dist/forest/index.css" rel="stylesheet"/>
-        <link rel="stylesheet" href="styles.css?v=1.0">
+        <link href="video-js.min.css?v=latest" rel="stylesheet"/>
+        <link href="forest-theme.css?v=latest" rel="stylesheet"/>
+        <link rel="stylesheet" href="styles.css?v=latest">
     </head>
     <body>
         <main>
@@ -58,7 +58,7 @@
                 Your browser does not support the video tag.
             </video>
         </main>
-        <script src="https://vjs.zencdn.net/7.17.0/video.min.js"></script>
-        <script src="scripts.js?v=1.0"></script>
+        <script src="video.min.js"></script>
+        <script src="scripts.js?v=latest"></script>
     </body>
 </html>
