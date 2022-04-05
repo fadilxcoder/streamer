@@ -1,0 +1,12 @@
+name: learn-github-actions
+
+on: [push]
+
+jobs:
+  display-user:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+      - name: Say my name !
+        run: whoami
