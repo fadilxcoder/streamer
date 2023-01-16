@@ -1,0 +1,21 @@
+#!/usr/bin/php
+<?php 
+
+require "inMemoryDatabase.php";
+
+
+foreach ($inMemoryDatabase as $key => $value):
+    $videos[] = [
+        '_id' => uniqid(),
+        'id' => (int )$key + 1,
+        'title' => $value['title'],
+        'content' => $value['browser_uuid'],
+    ];
+endforeach;
+
+$dbTypicode = [
+    'movies' => $videos,
+];
+
+$tdb = json_encode($dbTypicode);
+file_put_contents('db.json', $tdb);
