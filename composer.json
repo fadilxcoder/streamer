@@ -1,0 +1,6 @@
+{
+    "require": {
+        "fabpot/goutte": "^4.0",
+        "tracy/tracy": "^2.8"
+    }
+}

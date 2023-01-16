@@ -1,4 +1,5 @@
 # Notes
 
 - RUN : `php populate` to file `db.json`
-- DB : `inMemoryDatabase.php`
+- API URL : https://my-json-server.typicode.com/fadilxcoder/streamer
+
