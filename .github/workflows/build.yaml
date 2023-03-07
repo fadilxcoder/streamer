@@ -25,4 +25,4 @@ jobs:
           git add -A
           timestamp=$(date -u)
           git commit -m "auto-build-${timestamp}" || exit 0
-          git push origin HEAD:master
+          git push origin HEAD:main
