@@ -1,0 +1,28 @@
+name: Build DB
+on:
+  push:
+    branches:
+      - master
+jobs:
+  unit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v3
+
+      - name: Install vendor
+        uses: php-actions/composer@v6
+        with:
+          php_version: "8.1"
+
+      - name: Build my json database
+        run: php popuate
+
+      - name: Save json database
+        run: |-
+          git config user.name "Automated"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          timestamp=$(date -u)
+          git commit -m "auto-build-${timestamp}" || exit 0
+          git push origin HEAD:master
