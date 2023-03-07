@@ -1,20 +1,19 @@
 <?php
 
 $client = new Goutte\Client();
+require_once('./vendor/mustangostang/spyc/Spyc.php');
 
-const BASE_URL = 'https://www.streamonsport4.click';
-
+$ymlArr = Spyc::YAMLLoad('./live.yaml');
+$baseUrl = $ymlArr['configs']['base_url'];
 $mirrorDatabase = [];
-$inMemoryDatabase = [
-    [
-        'title' => 'NANTES-LENS',
-        'browser_uuid' => 'https://www.streamonsport4.click/4801-regarder-nantes-lens-en-streaming-coupe-de-france.html',
-    ],
-    [
-        'title' => 'TOULOUSE-RODEZ',
-        'browser_uuid' => 'https://www.streamonsport4.click/4802-regarder-toulouse-rodez-en-streaming-coupe-de-france.html',
-    ],
-];
+$inMemoryDatabase = [];
+
+foreach ($ymlArr['streams'] as $key => $value):
+    $inMemoryDatabase[] = [
+        'title' => $key,
+        'browser_uuid' =>  $value,
+    ];
+endforeach;
 
 foreach ($inMemoryDatabase as $key => $data) :
     $crawler = $client->request('GET', $data['browser_uuid']);
@@ -28,11 +27,11 @@ foreach ($inMemoryDatabase as $key => $data) :
         'id' => (int)$key + 1,
         'title' => $data['title'],
         'browser_uuid' => $data['browser_uuid'],
-        'live' => buildNeurons($streamUrls)
+        'live' => buildNeurons($baseUrl, $streamUrls)
     ];
 endforeach;
 
-function buildNeurons($streamUrls)
+function buildNeurons($baseUrl, $streamUrls)
 {
     $identifier = [];
     foreach ($streamUrls as $url) :
@@ -53,7 +52,7 @@ function buildNeurons($streamUrls)
                     }
                 } else {
 
-                    $identifier[] = BASE_URL.$array;
+                    $identifier[] = $baseUrl.$array;
                 }
             }
         endforeach;
