@@ -1,9 +1,9 @@
 # DO NOT delete base_url in config
 
 configs:
-  base_url: 'https://www.streamonsport4.click'
+  base_url: 'https://www.streamonsport5.click'
 
 # streams is populated manually
 streams:
-  'Lazio 🆚 Alkmaar' : 'https://www.streamonsport4.click/3020-regarder-lazio-alkmaar-en-streaming-ligue-europa-conference.html'
-  'CHELSEA 🆚 DORTMUND' : 'https://www.streamonsport4.click/3031-regarder-chelsea-dortmund-en-streaming-ligue-des-champions.html'
+  'BAYERN MUNICH 🆚 PSG' : 'https://www.streamonsport5.click/8015-regarder-bayern-munich-psg-en-streaming-ligue-des-champions.html'
+  'TOTTENHAM 🆚 AC MILAN' : 'https://www.streamonsport5.click/8016-regarder-tottenham-ac-milan-en-streaming-ligue-des-champions.html'
