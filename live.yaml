@@ -5,7 +5,11 @@ configs:
 
 # streams is populated manually
 streams:
-  'BAYERN MUNICH 🆚 PSG' : 'https://www.streamonsport5.click/8015-regarder-bayern-munich-psg-en-streaming-ligue-des-champions.html'
-  'TOTTENHAM 🆚 AC MILAN' : 'https://www.streamonsport5.click/8016-regarder-tottenham-ac-milan-en-streaming-ligue-des-champions.html'
-  'Lille 🆚 Lyon' : 'https://www.streamonsport5.click/3716-regarder-lille-lyon-en-streaming-ligue-1.html'
-  'Spezia 🆚 Inter' : 'https://www.streamonsport5.click/3712-regarder-spezia-inter-en-streaming-serie-a.html'
+  'Bournemouth 🆚 Liverpool' : 'https://www.streamonsport5.click/9005-regarder-bournemouth-liverpool-en-streaming-premier-league.html'
+  'Real Madrid 🆚 Espanyol' : 'https://www.streamonsport5.click/9011-regarder-real-madrid-espanyol-en-streaming-liga.html'
+  'Bayern Munich 🆚 Augsburg' : 'https://www.streamonsport5.click/9016-regarder-bayern-munich-augsburg-en-streaming-bundesliga.html'
+  'Leicester 🆚 Chelsea' : 'https://www.streamonsport5.click/9025-regarder-leicester-chelsea-en-streaming-premier-league.html'
+  'Tottenham 🆚 Nottingham' : 'https://www.streamonsport5.click/9026-regarder-tottenham-nottingham-en-streaming-premier-league.html'
+  'Crystal Palace 🆚 Manchester City' : 'https://www.streamonsport5.click/9046-regarder-crystal-palace-manchester-city-en-streaming-premier-league.html'
+  'Schalke 04 🆚 Dortmund' : 'https://www.streamonsport5.click/9042-regarder-schalke-04-dortmund-en-streaming-bundesliga.html'
+  'Brest 🆚 PSG' : 'https://www.streamonsport5.click/9071-regarder-brest-psg-en-streaming-ligue-1.html'
