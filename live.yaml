@@ -1,9 +1,11 @@
 # DO NOT delete base_url in config
 
 configs:
-  base_url: 'https://www.streamonsport5.click'
+  base_url: 'https://www.streamonsport-ldc.top'
 
 # streams is populated manually
 streams:
-  'FC Porto 🆚 Inter' : 'https://www.streamonsport5.click/3504-regarder-fc-porto-inter-en-streaming-ligue-des-champions.html'
-  'Manchester City 🆚 RB Leipzig' : 'https://www.streamonsport5.click/3505-regarder-manchester-city-rb-leipzig-en-streaming-ligue-des-champions.html'
+  'Brighton 🆚 Crystal Palace' : 'https://www.streamonsport-ldc.top/3001-regarder-brighton-crystal-palace-en-streaming-premier-league.html'
+  'Southampton 🆚 Brentford' : 'https://www.streamonsport-ldc.top/3002-regarder-southampton-brentford-en-streaming-premier-league.html'
+  'Naples 🆚 Eintracht Francfort' : 'https://www.streamonsport-ldc.top/3003-regarder-naples-eintracht-francfort-en-streaming-ligue-des-champions.html'
+  'Real Madrid 🆚 Liverpool' : 'https://www.streamonsport-ldc.top/3004-regarder-real-madrid-liverpool-en-streaming-ligue-des-champions.html'
