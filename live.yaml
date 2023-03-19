@@ -5,8 +5,9 @@ configs:
 
 # streams is populated manually
 streams:
-  'Southampton 🆚 Tottenham' : 'https://www.streamonsport-ldc.top/3528-regarder-southampton-tottenham-en-streaming-premier-league.html'
-  'Chelsea 🆚 Everton' : 'https://www.streamonsport-ldc.top/3554-regarder-chelsea-everton-en-streaming-premier-league.html'
-  'Manchester City 🆚 Burnley' : 'https://www.streamonsport-ldc.top/3556-regarder-manchester-city-burnley-en-streaming-fa-cup.html'
-  'Benfica 🆚 Guimaraes' : 'https://www.streamonsport-ldc.top/3571-regarder-benfica-guimaraes-en-streaming-liga-portugal-bwin.html'
-  'Udinese 🆚 AC Milan' : 'https://www.streamonsport-ldc.top/3581-regarder-udinese-ac-milan-en-streaming-serie-a.html'
+  'Arsenal 🆚 Crystal Palace' : 'https://www.streamonsport-ldc.top/3653-regarder-arsenal-crystal-palace-en-streaming-premier-league.html'
+  'PSG 🆚 Rennes' : 'https://www.streamonsport-ldc.top/3665-regarder-psg-rennes-en-streaming-ligue-1.html'
+  'Bayer Leverkusen 🆚 Bayern Munich' : 'https://www.streamonsport-ldc.top/3666-regarder-bayer-leverkusen-bayern-munich-en-streaming-bundesliga.html'
+  'Manchester Utd 🆚 Fulham' : 'https://www.streamonsport-ldc.top/3667-regarder-manchester-utd-fulham-en-streaming-fa-cup.html'
+  'Inter 🆚 Juventus' : 'https://www.streamonsport-ldc.top/3694-regarder-inter-juventus-en-streaming-serie-a.html'
+  'Barcelone 🆚 Real Madrid' : 'https://www.streamonsport-ldc.top/3695-regarder-barcelone-real-madrid-en-streaming-liga.html'
