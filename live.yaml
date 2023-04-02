@@ -1,11 +1,11 @@
 # DO NOT delete base_url in config
 
 configs:
-  base_url: 'https://www.streamonsport-ldc.top'
+  base_url: 'https://www.streamon-sport.top'
 
 # streams is populated manually
 streams:
-  'Manchester City 🆚 Liverpool' : 'https://www.streamonsport-ldc.top/3440-regarder-manchester-city-liverpool-en-streaming-premier-league.html'
-  'Schalke 04 🆚 Bayer Leverkusen' : 'https://www.streamonsport-ldc.top/3455-regarder-schalke-04-bayer-leverkusen-en-streaming-bundesliga.html'
-  'Chelsea 🆚 Aston Villa' : 'https://www.streamonsport-ldc.top/3494-regarder-chelsea-aston-villa-en-streaming-premier-league.html'
-  'Bayern Munich 🆚 Dortmund' : 'https://www.streamonsport-ldc.top/3485-regarder-bayern-munich-dortmund-en-streaming-bundesliga.html'
+  'Real Madrid 🆚 Valladolid' : 'https://www.streamon-sport.top/3604-regarder-real-madrid-valladolid-en-streaming-liga.html'
+  'Newcastle 🆚 Manchester Utd' : 'https://www.streamon-sport.top/3614-regarder-newcastle-manchester-utd-en-streaming-premier-league.html'
+  'Naples 🆚 AC Milan' : 'https://www.streamon-sport.top/3634-regarder-naples-ac-milan-en-streaming-serie-a.html'
+  'PSG 🆚 Lyon' : 'https://www.streamon-sport.top/3633-regarder-psg-lyon-en-streaming-ligue-1.html'
