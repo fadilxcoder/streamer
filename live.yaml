@@ -1,9 +1,9 @@
 # DO NOT delete base_url in config
 
 configs:
-  base_url: 'https://www.streamon-sport.top'
+  base_url: 'https://www.streamonsport-live.top'
 
 # streams is populated manually
 streams:
-  'Benfica 🆚 Inter' : 'https://www.streamon-sport.top/7000-regarder-benfica-inter-en-streaming-ligue-des-champions.html'
-  'Manchester City 🆚 Bayern Munich' : 'https://www.streamon-sport.top/7001-regarder-manchester-city-bayern-munich-en-streaming-ligue-des-champions.html'
+  'AC Milan 🆚 Naples' : 'https://www.streamonsport-live.top/5801-regarder-ac-milan-naples-en-streaming-ligue-des-champions.html'
+  'Real Madrid 🆚 Chelsea' : 'https://www.streamonsport-live.top/5802-regarder-real-madrid-chelsea-en-streaming-ligue-des-champions.html'
