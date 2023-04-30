@@ -1,10 +1,13 @@
 # DO NOT delete base_url in config
 
 configs:
-  base_url: 'https://www.streamonsport-live.top'
+  base_url: 'https://www.streamonsport360.top'
 
 # streams is populated manually
 streams:
-  'Everton 🆚 Newcastle' : 'https://www.streamonsport-live.top/7005-regarder-everton-newcastle-en-streaming-premier-league.html'
-  'Sothon 🆚 Bournemouth' : 'https://www.streamonsport-live.top/7006-regarder-southampton-bournemouth-en-streaming-premier-league.html'
-  'Tottenham 🆚 Man Utd' : 'https://www.streamonsport-live.top/7010-regarder-tottenham-manchester-utd-en-streaming-premier-league.html'
+  'Inter 🆚 Lazio' : 'https://www.streamonsport360.top/4851-regarder-inter-lazio-en-streaming-serie-a.html'
+  'Fulham 🆚 Man City' : 'https://www.streamonsport360.top/4874-regarder-fulham-manchester-city-en-streaming-premier-league.html'
+  'Newcastle 🆚 Sothon' : 'https://www.streamonsport360.top/4876-regarder-newcastle-southampton-en-streaming-premier-league.html'
+  'Bayern Munich 🆚 Hertha Berlin' : 'https://www.streamonsport360.top/4878-regarder-bayern-munich-hertha-berlin-en-streaming-bundesliga.html'
+  'PSG 🆚 Lorient' : 'https://www.streamonsport360.top/4884-regarder-psg-lorient-en-streaming-ligue-1.html'
+  'Liverpool 🆚 Tottenham' : 'https://www.streamonsport360.top/4886-regarder-liverpool-tottenham-en-streaming-premier-league.html'
