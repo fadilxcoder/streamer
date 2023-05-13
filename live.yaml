@@ -1,8 +1,17 @@
 # DO NOT delete base_url in config
 
 configs:
-  base_url: 'https://www.streamonsport360.top'
+  base_url: 'https://www.streamonsport365.top'
 
 # streams is populated manually
 streams:
-  'AC Milan 🆚 Inter' : 'https://www.streamonsport365.top/7205-regarder-ac-milan-inter-en-streaming-ligue-des-champions.html'
+  'Leeds 🆚 Newcastle' : 'https://www.streamonsport365.top/3611-regarder-leeds-newcastle-en-streaming-premier-league.html'
+  'Bayern Munich 🆚 Schalke 04' : 'https://www.streamonsport365.top/3618-regarder-bayern-munich-schalke-04-en-streaming-bundesliga.html'
+  'Aston Villa 🆚 Tottenham' : 'https://www.streamonsport365.top/3626-regarder-aston-villa-tottenham-en-streaming-premier-league.html'
+  'Chelsea 🆚 Nottingham' : 'https://www.streamonsport365.top/3627-regarder-chelsea-nottingham-en-streaming-premier-league.html'
+  'Man Utd 🆚 Wolves' : 'https://www.streamonsport365.top/3629-regarder-manchester-utd-wolves-en-streaming-premier-league.html'
+  'Spezia 🆚 AC Milan' : 'https://www.streamonsport365.top/3643-regarder-spezia-ac-milan-en-streaming-serie-a.html'
+  'Dortmund 🆚 B. Mong' : 'https://www.streamonsport365.top/3645-regarder-dortmund-b-monchengladbach-en-streaming-bundesliga.html'
+  'Inter 🆚 Sassuolo' : 'https://www.streamonsport365.top/3673-regarder-inter-sassuolo-en-streaming-serie-a.html'
+  'Real Madrid 🆚 Getafe' : 'https://www.streamonsport365.top/3675-regarder-real-madrid-getafe-en-streaming-liga.html'
+  'PSG 🆚 AC Ajaccio' : 'https://www.streamonsport365.top/3677-regarder-psg-ac-ajaccio-en-streaming-ligue-1.html'
