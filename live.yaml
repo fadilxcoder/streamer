@@ -1,11 +1,10 @@
 # DO NOT delete base_url in config
 
 configs:
-  base_url: 'https://www.streamonsport99.top'
+  base_url: 'https://www.streamonsport.sbs'
 
 # streams is populated manually
 streams:
-  'Majorque 🆚 Valence' : 'https://www.streamonsport99.top/7000-regarder-majorque-valence-en-streaming-liga.html'
-  'France 🆚 Gambie' : 'https://www.streamonsport99.top/7001-regarder-france--20-gambie--20-en-streaming-coupe-du-monde-u-20.html'
-  'Uruguay 🆚 Angleterre' : 'https://www.streamonsport99.top/7002-regarder-uruguay--20-angleterre--20-en-streaming-coupe-du-monde-u-20.html'
-  'Man Utd 🆚 Chelsea' : 'https://www.streamonsport99.top/7003-regarder-manchester-utd-chelsea-en-streaming-premier-league.html'
+  'Brésil -20 🆚 Tunisie -20' : 'https://www.streamonsport.sbs/7001-regarder-br%C3%A9sil--20-tunisie--20-en-streaming-coupe-du-monde-u-20.html'
+  'Al Nassr 🆚 Al Fateh' : 'https://www.streamonsport.sbs/7003-regarder-al-nassr-al-fateh-en-streaming-saudi-pro-league.html'
+  'FC Séville 🆚 AS Rome' : 'https://www.streamonsport.sbs/7005-regarder-fc-s%C3%A9ville-as-rome-en-streaming-ligue-europa.htmll'
