@@ -5,6 +5,27 @@ require_once('./vendor/mustangostang/spyc/Spyc.php');
 
 $ymlArr = Spyc::YAMLLoad('./live.yaml');
 $baseUrl = $ymlArr['configs']['base_url'];
+
+# Crawl the whole webpage
+
+$webPageCrawler = $client->request('GET', $baseUrl);
+$streamsUrlsValue = $webPageCrawler->filter('a.game-name')->each(function ($node) {
+    return $node->attr('href'); // Get link
+});
+
+$streamsUrlsKey = $webPageCrawler->filter('a.game-name span')->each(function ($node) {
+    return $node->text(); // Get name
+});
+
+$streamerDataset = [];
+foreach ($streamsUrlsValue as $key => $value) {
+    $streamerDataset[$streamsUrlsKey[$key]] = $value;
+}
+
+# EOF Crawl the whole webpage
+
+$ymlArr['streams'] = ($ymlArr['streams'] === "") ? $streamerDataset : $ymlArr['streams'];
+
 $mirrorDatabase = [];
 $inMemoryDatabase = [];
 
@@ -30,6 +51,8 @@ foreach ($inMemoryDatabase as $key => $data) :
         'live' => buildNeurons($baseUrl, $streamUrls)
     ];
 endforeach;
+
+
 
 function buildNeurons($baseUrl, $streamUrls)
 {
