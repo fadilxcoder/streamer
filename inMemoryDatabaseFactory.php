@@ -24,35 +24,40 @@ foreach ($streamsUrlsValue as $key => $value) {
 
 # EOF Crawl the whole webpage
 
-$ymlArr['streams'] = ($ymlArr['streams'] === "") ? $streamerDataset : $ymlArr['streams'];
+$mirrorDatabaseLimit = buildStreamsChannels($ymlArr, $client, $baseUrl);
+$ymlArr['streams'] = $streamerDataset;
+$mirrorDatabaseNoLimit = buildStreamsChannels($ymlArr, $client, $baseUrl);
 
-$mirrorDatabase = [];
-$inMemoryDatabase = [];
+function buildStreamsChannels($ymlArr, $client, $baseUrl)
+{
+    $mirrorDatabase = [];
+    $inMemoryDatabase = [];
 
-foreach ($ymlArr['streams'] as $key => $value):
-    $inMemoryDatabase[] = [
-        'title' => $key,
-        'browser_uuid' =>  $value,
-    ];
-endforeach;
+    foreach ($ymlArr['streams'] as $key => $value):
+        $inMemoryDatabase[] = [
+            'title' => $key,
+            'browser_uuid' =>  $value,
+        ];
+    endforeach;
 
-foreach ($inMemoryDatabase as $key => $data) :
-    $crawler = $client->request('GET', $data['browser_uuid']);
+    foreach ($inMemoryDatabase as $key => $data) :
+        $crawler = $client->request('GET', $data['browser_uuid']);
 
-    $streamUrls = $crawler->filter('div#chanel_links a')->each(function ($node) {
-        return $node->attr('onclick');
-    });
+        $streamUrls = $crawler->filter('div#chanel_links a')->each(function ($node) {
+            return $node->attr('onclick');
+        });
 
-    $mirrorDatabase[] = [
-        '_id' => uniqid(),
-        'id' => (int)$key + 1,
-        'title' => $data['title'],
-        'browser_uuid' => $data['browser_uuid'],
-        'live' => buildNeurons($baseUrl, $streamUrls)
-    ];
-endforeach;
+        $mirrorDatabase[] = [
+            '_id' => uniqid(),
+            'id' => (int)$key + 1,
+            'title' => $data['title'],
+            'browser_uuid' => $data['browser_uuid'],
+            'live' => buildNeurons($baseUrl, $streamUrls)
+        ];
+    endforeach;
 
-
+    return $mirrorDatabase;
+}
 
 function buildNeurons($baseUrl, $streamUrls)
 {

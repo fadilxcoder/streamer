@@ -4,9 +4,18 @@
 require 'vendor/autoload.php';
 require "inMemoryDatabaseFactory.php";
 
+# Limit
 $db = [
-    'streams' => $mirrorDatabase
+    'streams' => $mirrorDatabaseLimit
 ];
 
 $edb = json_encode($db);
 file_put_contents('db.json', $edb);
+
+# No limit
+$db = [
+    'streams' => $mirrorDatabaseNoLimit
+];
+
+$edb = json_encode($db);
+file_put_contents('db-premium.json', $edb);
