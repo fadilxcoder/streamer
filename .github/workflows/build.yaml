@@ -1,4 +1,5 @@
 name: Build DB
+
 on:
   push:
     branches:
@@ -18,14 +19,14 @@ jobs:
         with:
           php_version: "8.1"
 
-      - name: Build my json database
+      - name: Build my json databases
         run: php populate
 
-      - name: Save json database
+      - name: Save json databases
         run: |-
           git config user.name "Automated"
           git config user.email "actions@users.noreply.github.com"
-          git add db.json
+          git add db.json db-premium.json
           timestamp=$(date -u)
           git commit -m "auto-build-${timestamp}" || exit 0
           git push origin HEAD:main
