@@ -1,11 +1,11 @@
-name: Build DB Free
+name: Build DB premium
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
+  schedule: ## https://crontab.guru/#0_*/3_*_*_*
+    - cron: '0 */3 * * *'
 
 jobs:
-  database-free:
+  database-premium:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repo
@@ -23,7 +23,7 @@ jobs:
         run: |-
           git config user.name "Automated"
           git config user.email "actions@users.noreply.github.com"
-          git add db.json
+          git add db-premium.json
           timestamp=$(date -u)
-          git commit -m "free-auto-build-${timestamp}" || exit 0
+          git commit -m "premium-auto-build-${timestamp}" || exit 0
           git push origin HEAD:main
