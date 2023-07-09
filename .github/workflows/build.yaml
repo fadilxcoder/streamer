@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "0 */3 * * *"
+    - cron: "0 */1 * * *" # https://crontab.guru/#0_*/1_*_*_* - 1 hour interval
 
 jobs:
   database:
