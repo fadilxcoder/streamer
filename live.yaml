@@ -1,7 +1,8 @@
 # DO NOT delete base_url in config
 
 configs:
-  base_url: 'https://www.streamonsport.ru'
+  base_url: 'https://www.streamonsport2.sbs'
 
 # streams is populated manually
 streams:
+  'Marseille (Fra) 🆚 Nîmes (Fra)' : 'https://www.streamonsport2.sbs/6809-regarder-marseille-fra-n%C3%AEmes-fra-en-streaming-amical.html'
