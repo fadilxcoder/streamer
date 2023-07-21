@@ -5,5 +5,5 @@ configs:
 
 # streams is populated manually
 streams:
-  'PSG 🆚 Le Havre' : 'https://www.streamonsport2.sbs/8041-regarder-psg-le-havre-streaming-direct-match-amical.html'
+  'PSG 🆚 Le Havre ' : 'https://www.streamonsport2.sbs/8041-regarder-psg-le-havre-streaming-direct-match-amical.html'
   'Benfica 🆚 Celta Vigo' : 'https://www.streamonsport2.sbs/8046-regarder-benfica-por-celta-vigo-esp-en-streaming-amical.html'
