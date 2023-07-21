@@ -5,6 +5,5 @@ configs:
 
 # streams is populated manually
 streams:
-  'Manchester Utd (Eng) 🆚 Lyon (Fra)' : 'https://www.streamonsport2.sbs/8903-regarder-manchester-utd-eng-lyon-fra-en-streaming-amical.html'
-  'Karlsruher (Ger) 🆚 Liverpool (Eng)' : 'https://www.streamonsport2.sbs/8908-regarder-karlsruher-ger-liverpool-eng-en-streaming-amical.html'
-  'Oberhausen (Ger) 🆚 Dortmund (Ger)' : 'https://www.streamonsport2.sbs/8907-regarder-oberhausen-ger-dortmund-ger-en-streaming-amical.html'
+  'PSG 🆚 Le Havre' : 'https://www.streamonsport2.sbs/8041-regarder-psg-le-havre-streaming-direct-match-amical.html'
+  'Benfica 🆚 Celta Vigo' : 'https://www.streamonsport2.sbs/8046-regarder-benfica-por-celta-vigo-esp-en-streaming-amical.html'
