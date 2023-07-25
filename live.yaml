@@ -5,5 +5,6 @@ configs:
 
 # streams is populated manually
 streams:
-  'PSG 🆚 Le Havre ' : 'https://www.streamonsport2.sbs/8041-regarder-psg-le-havre-streaming-direct-match-amical.html'
-  'Benfica 🆚 Celta Vigo' : 'https://www.streamonsport2.sbs/8046-regarder-benfica-por-celta-vigo-esp-en-streaming-amical.html'
+  'Suisse F 🆚 Norvège F' : 'https://www.streamonsport2.sbs/3816-regarder-suisse-f-norv%C3%A8ge-f-en-streaming-coupe-du-monde-feminine.html'
+  'PSG (Fra) 🆚 Al-Nassr (Sau)' : 'https://www.streamonsport2.sbs/6680-regarder-psg-fra-al-nassr-sau-en-streaming-amical.html'
+  'Man Utd (Eng) 🆚 Wrexham (Wal)' : 'https://www.streamonsport2.sbs/6699-regarder-manchester-utd-eng-wrexham-wal-en-streaming-amical.html'
