@@ -5,5 +5,8 @@ configs:
 
 # streams is populated manually
 streams:
-  'Kawasaki 🆚 Bayern Munich' : 'https://www.streamonsport2.sbs/7802-regarder-kawasaki-jpn-bayern-munich-ger-en-streaming-amical.html'
-  'Real Madrid 🆚 Barcelone' : 'https://www.streamonsport2.sbs/7838-regarder-real-madrid-esp-barcelone-esp-en-streaming-amical.html'
+  'Liverpool 🆚 Leicester City' : 'https://www.streamonsport2.sbs/7076-regarder-liverpool-leicester-city-en-streaming-amical.html'
+  'Man City 🆚 Atlético Madrid' : 'https://www.streamonsport2.sbs/7077-regarder-manchester-city-atl%C3%A9tico-madrid-en-streaming-amical.html'
+  'Aston Villa 🆚 Brentford' : 'https://www.streamonsport2.sbs/7079-regarder-aston-villa-brentford-en-streaming-amical.html'
+  'Chelsea 🆚 Fulham' : 'https://www.streamonsport2.sbs/7080-regarder-chelsea-fulham-en-streaming-amical.html'
+  'Borussia D 🆚 Man United' : 'https://www.streamonsport2.sbs/7083-regarder-borussia-dortmund-manchester-united-en-streaming-amical.html'
