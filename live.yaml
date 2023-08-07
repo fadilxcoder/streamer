@@ -1,13 +1,8 @@
 # DO NOT delete base_url in config
 
 configs:
-  base_url: 'https://www.streamonsport2.sbs'
+  base_url: 'https://www.streamonsport.ru'
 
 # streams is populated manually
 streams:
-  'Tottenham (Eng) 🆚 Shakhtar (Ukr)' : 'https://www.streamonsport2.sbs/8010-regarder-tottenham-eng-shakhtar-ukr-en-streaming-amical.html'
-  'Dortmund (Ger) 🆚 Ajax (Ned)' : 'https://www.streamonsport2.sbs/8015-regarder-dortmund-ger-ajax-ned-en-streaming-amical.html'
-  'Man Utd (Eng) 🆚 Ath. Bilbao (Esp)' : 'https://www.streamonsport2.sbs/8016-regarder-manchester-utd-eng-ath--bilbao-esp-en-streaming-amical.html'
-  'Newcastle (Eng) 🆚 Villarreal (Esp)' : 'https://www.streamonsport2.sbs/8017-regarder-newcastle-eng-villarreal-esp-en-streaming-amical.html'
-  'Man City 🆚 Arsenal' : 'https://www.streamonsport2.sbs/8018-regarder-manchester-city-arsenal-en-streaming-community-shield.html'
-  'Toulouse (Fra) 🆚 AS Rome (Ita)' : 'https://www.streamonsport2.sbs/8025-regarder-toulouse-fra-as-rome-ita-en-streaming-amical.html'
+  'Angleterre F 🆚 Nigéria F' : 'https://www.streamonsport.ru/8042-regarder-angleterre-f-nigeria-f-en-streaming-coupe-du-monde-feminine.html'
