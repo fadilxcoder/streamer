@@ -5,8 +5,10 @@ configs:
 
 # streams is populated manually
 streams:
-  'Japon F 🆚 Suède F' : 'https://www.streamonsport.ru/8028-regarder-japon-f-su%C3%A8de-f-en-streaming-coupe-du-monde-feminine.html'
-  'Naples (Ita) 🆚 Apollon (Cyp)' : 'https://www.streamonsport.ru/9506-regarder-naples-ita-apollon-cyp-en-streaming-amical.html'
-  'Nice 🆚 Lille' : 'https://www.streamonsport.ru/9515-regarder-nice-lille-en-streaming-ligue-1.html'
-  'Burnley 🆚 Manchester City' : 'https://www.streamonsport.ru/9517-regarder-burnley-manchester-city-en-streaming-premier-league.html'
-  'FC Séville 🆚 Valence' : 'https://www.streamonsport.ru/9521-regarder-fc-seville-valence-en-streaming-liga.html'
+  'AC Milan (Ita) 🆚 Novara (Ita)' : 'https://www.streamonsport.ru/3886-regarder-ac-milan-ita-novara-ita-en-streaming-amical.html'
+  'Multiplex Ligue 1' : 'https://www.streamonsport.ru/3892-regarder-multiplex-ligue-1--en-streaming-ligue-1.html'
+  'Brentford 🆚 Tottenham' : 'https://www.streamonsport.ru/3900-regarder-brentford-tottenham-en-streaming-premier-league.html'
+  'Clermont 🆚 Monaco' : 'https://www.streamonsport.ru/3897-regarder-clermont-monaco-en-streaming-ligue-1.html'
+  'Chelsea 🆚 Liverpool' : 'https://www.streamonsport.ru/3915-regarder-chelsea-liverpool-en-streaming-premier-league.html'
+  'Strasbourg 🆚 Lyon' : 'https://www.streamonsport.ru/3933-regarder-strasbourg-lyon-en-streaming-ligue-1.html'
+  'Getafe 🆚 Barcelone' : 'https://www.streamonsport.ru/3940-regarder-getafe-barcelone-en-streaming-liga.html'
