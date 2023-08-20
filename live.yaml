@@ -5,7 +5,11 @@ configs:
 
 # streams is populated manually
 streams:
-  'Al Nassr 🆚 Al Taawoun' : 'https://www.streamonsport.ru/2713-regarder-al-nassr-al-taawoun-en-streaming-saudi-pro-league.html'
-  'Werder Brême 🆚 Bayern Munich' : 'https://www.streamonsport.ru/2718-regarder-werder-br%C3%AAme-bayern-munich-en-streaming-bundesliga.html'
-  'Metz 🆚 Marseille' : 'https://www.streamonsport.ru/2723-regarder-metz-marseille-en-streaming-ligue-1.html'
-  'Suède F 🆚 Australie F' : 'https://www.streamonsport.ru/2743-regarder-su%C3%A8de-f-australie-f-en-streaming-coupe-du-monde-feminine.html'
+  'Espagne F 🆚 Angleterre F' : 'https://www.streamonsport.ru/9111-regarder-espagne-f-angleterre-f-en-streaming-coupe-du-monde-feminine.html'
+  'Lille 🆚 Nantes' : 'https://www.streamonsport.ru/9114-regarder-lille-nantes-en-streaming-ligue-1.html'
+  'Aston Villa 🆚 Everton' : 'https://www.streamonsport.ru/9129-regarder-aston-villa-everton-en-streaming-premier-league.html'
+  'Monaco 🆚 Strasbourg' : 'https://www.streamonsport.ru/9139-regarder-monaco-strasbourg-en-streaming-ligue-1.html'
+  'West Ham 🆚 Chelsea' : 'https://www.streamonsport.ru/9141-regarder-west-ham-chelsea-en-streaming-premier-league.html'
+  'AS Rome 🆚 Salernitana' : 'https://www.streamonsport.ru/9146-regarder-as-rome-salernitana-en-streaming-serie-a.html'
+  'Barcelone 🆚 Cadix CF' : 'https://www.streamonsport.ru/9153-regarder-barcelone-cadix-cf-en-streaming-liga.html'
+  'Udinese 🆚 Juventus' : 'https://www.streamonsport.ru/9158-regarder-udinese-juventus-en-streaming-serie-a.html'
