@@ -1,6 +1,7 @@
 <?php
 
 $client = new Goutte\Client();
+$client->setMaxRedirects(2);
 require_once('./vendor/mustangostang/spyc/Spyc.php');
 
 $ymlArr = Spyc::YAMLLoad('./live.yaml');
@@ -41,19 +42,26 @@ function buildStreamsChannels($ymlArr, $client, $baseUrl)
     endforeach;
 
     foreach ($inMemoryDatabase as $key => $data) :
-        $crawler = $client->request('GET', $data['browser_uuid']);
+        try {
+            $crawler = $client->request('GET', $data['browser_uuid']);
+            $streamUrls = $crawler->filter('div#chanel_links a')->each(function ($node) {
+                return $node->attr('onclick');
+            });
+        } 
+        catch(\LogicException $e) {
 
-        $streamUrls = $crawler->filter('div#chanel_links a')->each(function ($node) {
-            return $node->attr('onclick');
-        });
+            $streamUrls = [];
+        }
 
-        $mirrorDatabase[] = [
-            '_id' => uniqid(),
-            'id' => (int)$key + 1,
-            'title' => $data['title'],
-            'browser_uuid' => $data['browser_uuid'],
-            'live' => buildNeurons($baseUrl, $streamUrls)
-        ];
+        if (!empty($streamUrls)) {
+            $mirrorDatabase[] = [
+                '_id' => uniqid(),
+                'id' => (int)$key + 1,
+                'title' => $data['title'],
+                'browser_uuid' => $data['browser_uuid'],
+                'live' => buildNeurons($baseUrl, $streamUrls)
+            ];
+        }
     endforeach;
 
     return $mirrorDatabase;
