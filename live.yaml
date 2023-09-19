@@ -1,17 +1,8 @@
 # DO NOT delete base_url in config
 
 configs:
-  base_url: 'https://www.streamonsport.ru'
+  base_url: 'https://www.prime-sport.info'
 
 # streams is populated manually
 streams:
-  'Rennes 🆚 Le Havre' : 'https://www.streamonsport.ru/8120-regarder-rennes-le-havre-en-streaming-ligue-1.html'
-  'Watford 🆚 Blackburn' : 'https://www.streamonsport.ru/8121-regarder-watford-blackburn-en-streaming-championship.html'
-  'Burnley 🆚 Aston Villa' : 'https://www.streamonsport.ru/8132-regarder-burnley-aston-villa-en-streaming-premier-league.html'
-  'Sheffield Utd 🆚 Manchester City' : 'https://www.streamonsport.ru/8133-regarder-sheffield-utd-manchester-city-en-streaming-premier-league.html'
-  'Bayern Munich 🆚 Augsburg' : 'https://www.streamonsport.ru/8141-regarder-bayern-munich-augsburg-en-streaming-bundesliga.html'
-  'Villarreal 🆚 Barcelone' : 'https://www.streamonsport.ru/8142-regarder-villarreal-barcelone-en-streaming-liga.html'
-  'Newcastle 🆚 Liverpool' : 'https://www.streamonsport.ru/8143-regarder-newcastle-liverpool-en-streaming-premier-league.html'
-  'Juventus 🆚 Bologne' : 'https://www.streamonsport.ru/8151-regarder-juventus-bologne-en-streaming-serie-a.html'
-  'Nice 🆚 Lyon' : 'https://www.streamonsport.ru/8163-regarder-nice-lyon-en-streaming-ligue-1.html'
-  'Naples 🆚 Sassuolo' : 'https://www.streamonsport.ru/8165-regarder-naples-sassuolo-en-streaming-serie-a.html'
+  '' : ''
