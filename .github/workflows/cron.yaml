@@ -1,6 +1,7 @@
 name: Build Premium DB
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 */2 * * *" # https://crontab.guru/#0_*/2_*_*_* - 2 hours interval
 
