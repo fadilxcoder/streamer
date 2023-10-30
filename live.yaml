@@ -1,16 +1,8 @@
 # DO NOT delete base_url in config
 
 configs:
-  base_url: 'https://www.monlive.info'
+  base_url: 'https://www.streamonsport4.sbs'
 
 # streams is populated manually
 streams:
-  'Brest 🆚 PSG' : 'https://www.monlive.info/7121-regarder-brest-psg-en-streaming-ligue-1.html'
-  'West Ham 🆚 Everton' : 'https://www.monlive.info/7133-regarder-west-ham-everton-en-streaming-premier-league.html'
-  'Multiplex Ligue 1' : 'https://www.monlive.info/7139-regarder-multiplex-ligue-1--en-streaming-ligue-1.html'
-  'E Francfort 🆚 Dortmund' : 'https://www.monlive.info/7144-regarder-eintracht-francfort-dortmund-en-streaming-bundesliga.html'
-  'Man Utd 🆚 Man City' : 'https://www.monlive.info/7157-regarder-manchester-utd-manchester-city-en-streaming-premier-league.html'
-  'Bayer Leverkusen 🆚 Fribourg' : 'https://www.monlive.info/7165-regarder-bayer-leverkusen-fribourg-en-streaming-bundesliga.html'
-  'Inter 🆚 AS Rome' : 'https://www.monlive.info/7167-regarder-inter-as-rome-en-streaming-serie-a.html'
-  'Marseille 🆚 Lyon' : 'https://www.monlive.info/7196-regarder-marseille-lyon-en-streaming-ligue-1.html'
-  'Naples 🆚 AC Milan' : 'https://www.monlive.info/7197-regarder-naples-ac-milan-en-streaming-serie-a.html'
+  '' : ''
