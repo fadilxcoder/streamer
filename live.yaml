@@ -1,7 +1,7 @@
 # DO NOT delete base_url in config
 
 configs:
-  base_url: 'https://www.streamonsport4.sbs'
+  base_url: 'https://fr.streamon-sport.ru'
 
 # streams is populated manually
 streams:
