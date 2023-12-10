@@ -1,7 +1,7 @@
 # DO NOT delete base_url in config
 
 configs:
-  base_url: 'https://fr.streamon-sport.ru'
+  base_url: 'https://primefoot.ru'
 
 # streams is populated manually
 streams:
